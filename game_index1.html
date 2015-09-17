@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="CSS/game1_style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/game1_script.js"></script>
+
+    <title>Our First Game</title>
+  </head>
+  <body>
+    <h1 id="top_line">Pet Conversations</h1>
+<!-- This is our top part where we provide info about the game. -->
+    <div id="container">
+      <div id="game_info">
+          <p class="description">On this page you will have the option of talking with your pet of choice.</p/>
+          <p class="description">Choose your pet and follow instructions below.</p>
+      </div>
+  <!-- These are our Animal Choices -->
+      <div id="animal_choice">
+          <button type="submit" id="cat" class="btn big_btn">Cat</button>
+          <button type="submit" id="dog" class="btn big_btn">Dog</button>
+          <button type="submit" id="walrus" class="btn big_btn">Walrus</button>
+      </div>
+      <!-- End of Animal Choices -->
+    </div>
+    <!-- End of top part -->
+<!-- Beginning of Cat Convo -->
+<!-- Greeting of Cat -->
+    <div id="cat_convo">
+      <form id="human_greeting">
+        <div class="form-group">
+          <label for="greeting">Greet the Cat.</label>
+          <input id="cat_greeting" class="form-control" type="text">
+        </div>
+        <button  type="submit" id="submit_cat" class="btn">Submit</button>
+      </form>
+    </div>
+    <!-- Response Area for Greeting -->
+    <div id="CatConversation">
+      <h1 id="firstConvo"></h1>
+      <h1 id="cat_first_response" class="catspeak">Hello Human...</h1>
+    </div>
+    <!-- End Response Area for Greeting  -->
+    <!-- Yes or No Question Form Start -->
+    <div id="cat_question_session">
+    <button id="pet_cat" type="submit" class="btn">Pet the cat</button>
+    <button id="feed_cat" type="submit" class="btn">Feed the cat</button>
+    <button id="kick_cat" type="submit" class="btn">Kick the cat</button>
+    </div>
+    <div id="button_response"><img id="pet_response" src="css/img/pet_cat.jpg">
+    </div>
+    <!-- End of Yes or No Form Question -->
+  </body>
+</html>

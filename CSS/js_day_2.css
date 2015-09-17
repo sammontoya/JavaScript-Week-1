@@ -1,0 +1,27 @@
+#picNoShow {
+  display:none;
+}
+#picNoShow_c {
+  display:none;
+}
+#picNoShow_d {
+  display:none;
+}
+.clicker {
+  color:red;
+}
+
+.clicker:hover {
+  text-decoration: underline;
+}
+#end_convo {
+  color:red;
+  text-align: center;
+}
+#end_convo:hover {
+  text-decoration: underline;
+}
+
+#story {
+  display: none;
+}

@@ -1,0 +1,59 @@
+html {
+  background: url(http://wallpaperswa.com/thumbnails/detail/20120728/ocean%20clouds%20nature%20beach%20trees%20sea%20outdoors%20palm%20trees%20skyscapes%201920x1200%20wallpaper_wallpaperswa.com_13.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;*/
+  /*position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;*/
+}
+.oldColor {
+  font-family: sans-serif;
+  color: blue;
+  text-align: center;
+
+}
+.newColor {
+  color:red;
+  text-align: right;
+  margin: 10px;
+}
+
+.firstButton {
+  background-color: black;
+  text-align: center;
+  color: white;
+  border-radius: 500px;
+  padding: 15px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 150px;
+}
+
+.trial {
+  border: 2px dashed white;
+  color: white;
+  font-size: 24px;
+  width:50%;
+  height:200px;
+  overflow: scroll;
+  padding-left: 20px;
+  margin-left: 20%;
+}
+
+.buttonColor {
+  background-color: red;
+  padding: 15px;
+  color: grey;
+  border-radius: 500px;
+  font-size: 20px;
+}

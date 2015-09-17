@@ -1,0 +1,75 @@
+#top_line {
+  text-align: center;
+  color: #3939BB;
+  font-family: serif;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#game_info {
+  background-color: rgba(57, 57, 187, .5);
+  margin-left: 35%;
+  margin-right: 15%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.description {
+  color: #fff;
+}
+.big_btn{
+  height:150px;
+  width: 250px;
+  color:#f2f2f2;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 20px;
+}
+#cat {
+  background-image: url("img/cat.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  border: 1px solid #000;
+}
+#dog {
+  background-image: url("img/dog.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  border: 1px solid #000;
+}
+
+#walrus {
+  background-image: url("img/walrus.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  border: 1px solid #000;
+}
+
+#animal_choice {
+  float: right;
+  display: inline;
+
+}
+#cat_convo {
+  background-color: red;
+  width: 50%;
+  float:right;
+  margin-right:25%;
+  display:none;
+}
+.catspeak{
+  color:purple;
+  text-indent: 20px;
+  text-decoration: underline;
+}
+#cat_first_response{
+  display: none;
+}
+
+#cat_question_session{
+  display: none;
+}
+
+#pet_response{
+  display: none;
+}
